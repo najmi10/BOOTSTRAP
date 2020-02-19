@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Bootstrap Modal</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h5>Bootstrap Modal</h5>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#largeModal">
+                Large Modal
+            </button>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#mediumModal">
+                Medium Modal
+            </button>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#smallModal">
+                Small Modal
+            </button>
+        </div>
+
+        <div class="modal fade" id="largeModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h4>Large Modal</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        Ilmu adalah suatu hal yang sangat penting di dunia ini. Ilmu bisa membuat manusia menjadi mulia dan ilmu juga bisa membuat manusia menjadi kejam. Sangking pentingnya ilmu bahkan Nabi Muhammad SAW telah memerintahkan kita untuk menuntut ilmu hingga ke negeri china. Yang dimaksud dengan hingga ke negeri China adalah kita dianjurkan untuk menuntut ilmu hingga ke tempat yang sangat jauh. Dengan menuntut ilmu, kita pasti akan menjadi orang yang berilmu. 
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="mediumModal">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h4>Medium Modal</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        Menjadi orang yang berilmu sangatlah bermanfaat. Mereka memiliki derajat yang lebih tinggi di mata tuhan di bandingkan dengan orang-orang yang tidak berilmu. Hal ini dikarenakan orang-orang berilmu dapat memberikan kemaslahatan atau manfaat bagi orang banyak. Orang-orang berilmu juga bisa menjadi pemimpin yang baik dan bijaksana. Terlebih lagi dengan ilmu orang-orang bisa membangun peradaban ke arah yang lebih baik. Tak hanya bermanfaat bagi orang banyak, ilmu juga bermanfaat bagi diri sendiri, antara lain dengan berilmu kita akan dihormati dengan orang-orang, tetapi orang berilmu juga tidaklah gila akan penghormatan karena mereka mengambil ajaran padi yang semakin berisi semakin merunduk, dengan berilmu juga kita bisa mewujudkan impian-impian kita.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-info">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="smallModal">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header bg-danger text-white">
+                        <h4>Small Modal</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        Oleh karena itu, marilah kita menuntut ilmu setinggi mungkin agar kita menjadi orang yang pintar sehingga bisa bermanfaat bagi orang lain dan diri sendiri. Janganlah malas dalam menuntut ilmu karena kebodohan akan menghampiri kita dan bagi yang sedang menuntut ilmu, manfaatkanlah kesempatan itu dengan baik karena ada banyak orang di sana yang tidak mendapatkan kesempatan yang sama.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-danger">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
